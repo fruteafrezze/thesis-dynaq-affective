@@ -1,0 +1,12 @@
+services:
+  simulator:
+    build: .
+    container_name: dyna_q_simulator
+    volumes:
+      - .:/workspace
+    tty: true
+    deploy:
+      resources:
+        limits:
+          cpus: '4.0'
+          memory: 8G
