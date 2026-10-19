@@ -1,0 +1,20 @@
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Output & Data Simulasi (Opsional: agar repo tidak berat)
+data/*.npz
+data/*.png
+
+# Environment & Config Local
+.env
+.venv/
+env/
+venv/
+
+# IDE & OS Files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
