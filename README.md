@@ -23,15 +23,16 @@ thesis-dynaq-affective/
 │   ├── Path-finding Using Reinforcement Learning and Affective States.pdf
 │   ├── results_exp1.npz                                # Output simulasi (auto-generated)
 │   └── plot_results.png                                # Output visualisasi (auto-generated)
+├── report/
+│   └── report.py                                       # Pembacaan data dan pembentukan grafik
 ├── src/
 │   ├── config.py                                       # Parameter simulasi dan hiperparameter RL
 │   ├── environment.py                                  # Logika Gridworld Maze & Bresenham
 │   ├── affect.py                                       # Modul kalkulasi Valence dan Arousal
 │   ├── agent.py                                        # Agen / algoritma Dyna-Q RL
-│   ├── utils.py                                        # Pembacaan data dan pembentukan grafik
 │   └── main.py                                         # Entrypoint utama eksekusi eksperimen
 ├── Dockerfile                                          # Image Docker berbasis Python 3.11-slim
-├── docker-compose.yml                                  # Konfigurasi layanan container dan batas resource
+├── docker-compose.yml                                  # Konfigurasi layanan container dan batas r
 ├── .gitignore                                          # Aturan pengabaian berkas Git
 └── README.md                                           # Dokumentasi proyek
 ```
@@ -70,7 +71,7 @@ Hasil simulasi akan disimpan otomatis ke `data/results_exp1.npz`.
 Jalankan skrip visualisasi untuk menghasilkan grafik:
 
 ```bash
-docker exec -it dyna_q_simulator python src/utils.py
+docker exec -it dyna_q_simulator python report/report.py
 ```
 
 Grafik visualisasi akan disimpan ke `data/plot_results.png`.
