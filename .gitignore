@@ -6,6 +6,7 @@ __pycache__/
 # Output & Data Simulasi (Opsional: agar repo tidak berat)
 data/*.npz
 data/*.png
+!data/*.pdf
 
 # Environment & Config Local
 .env
