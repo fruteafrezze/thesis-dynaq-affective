@@ -4,7 +4,7 @@ Implementasi simulator navigasi agen berbasis **Dyna-Q Reinforcement Learning** 
 
 ---
 
-## 📌 Fitur Utama
+## Fitur Utama
 
 - **Reference Paper Included**: Berkas PDF paper acuan disertakan langsung di direktori `data/` untuk kemudahan referensi riset.
 - **Maze Environment**: *Gridworld* 6x9 dengan rintangan (dinding) serta algoritma garis *Bresenham* untuk deteksi *Line-of-Sight* target.
@@ -15,7 +15,7 @@ Implementasi simulator navigasi agen berbasis **Dyna-Q Reinforcement Learning** 
 
 ---
 
-## 📁 Struktur Proyek
+## Struktur Proyek
 
 ```text
 thesis-dynaq-affective/
@@ -39,7 +39,7 @@ thesis-dynaq-affective/
 
 ---
 
-## 🚀 Panduan Penggunaan
+##  Panduan Penggunaan
 
 ### 1. Prasyarat
 
@@ -78,7 +78,7 @@ Grafik visualisasi akan disimpan ke `data/plot_results.png`.
 
 ---
 
-## ⚙️ Parameter Simulasi
+## Parameter Simulasi
 
 Parameter default diisi berdasarkan Tabel I dari paper Feldmaier & Diepold (2014).
 
@@ -97,7 +97,7 @@ Parameter default diisi berdasarkan Tabel I dari paper Feldmaier & Diepold (2014
 
 ---
 
-## 📚 Referensi dan Dokumen Terkait
+## Referensi dan Dokumen Terkait
 
 **Paper referensi utama:** `data/Path-finding Using Reinforcement Learning and Affective States.pdf`
 
